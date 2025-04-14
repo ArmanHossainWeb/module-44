@@ -1,0 +1,110 @@
+[
+    {
+      "id": "gym_basic_001",
+      "popular":"",
+      "name": "Basic",
+      "price": {
+        "monthly": 30,
+        "currency": "USD",
+        "billing": "monthly"
+      },
+      "features": [
+        "No contract",
+        "Standard hours (5AM-10PM)",
+        "Gym equipment access",
+        "Locker room",
+        "Free mobile app"
+      ],
+      "discount_coupon": {
+        "code": "NEWGYM10",
+        "description": "10% off first month",
+        "valid_until": "2023-12-31"
+      }
+    },
+    {
+      "id": "gym_premium_002",
+      "popular":"true",
+      "name": "Premium",
+      "price": {
+        "monthly": 55,
+        "currency": "USD",
+        "billing": "monthly"
+      },
+      "features": [
+        "24/7 access",
+        "5 classes/month",
+        "1 personal training session",
+        "Sauna & pool access",
+        "Towel service"
+      ],
+      "discount_coupon": {
+        "code": "FITPREMIUM15",
+        "description": "15% off 3 months",
+        "valid_until": "2023-12-15"
+      }
+    },
+    {
+      "id": "gym_elite_003",
+      "popular":"true",
+      "name": "Elite",
+      "price": {
+        "monthly": 90,
+        "currency": "USD",
+        "billing": "monthly"
+      },
+      "features": [
+        "VIP 24/7 access",
+        "Unlimited classes",
+        "4 training sessions/month",
+        "Cryotherapy",
+        "Nutrition planning"
+      ],
+      "discount_coupon": {
+        "code": "ELITE2023",
+        "description": "1 month free",
+        "valid_until": "2024-01-31"
+      }
+    },
+    {
+      "id": "gym_student_004",
+      "popular":"",
+      "name": "Student",
+      "price": {
+        "monthly": 25,
+        "currency": "USD",
+        "billing": "monthly"
+      },
+      "features": [
+        "Student ID required",
+        "Standard hours",
+        "Basic equipment",
+        "No classes included"
+      ],
+      "discount_coupon": {
+        "code": "STUDENT20",
+        "description": "20% ongoing discount",
+        "valid_until": "2024-06-30"
+      }
+    },
+    {
+      "id": "gym_family_005",
+      "popular":"true",
+      "name": "Family",
+      "price": {
+        "monthly": 120,
+        "currency": "USD",
+        "billing": "monthly"
+      },
+      "features": [
+        "2 adults + 2 kids",
+        "Kids' play area",
+        "10 classes/month",
+        "Family locker room"
+      ],
+      "discount_coupon": {
+        "code": "FAMILY30",
+        "description": "30% first month",
+        "valid_until": "2023-12-25"
+      }
+    }
+  ]
